@@ -15,10 +15,12 @@ public class Seller {
         this.order = new Order();
     }
 
-    public void showAllProducts() {
+    public String getAllProducts() {
+        String res = "";
         for (Product prod : productList) {
-            System.out.println(prod);
+            res += prod + "\n";
         }
+        return res;
     }
 
     public Product getProductByID(int id) {

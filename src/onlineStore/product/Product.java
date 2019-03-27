@@ -44,6 +44,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Код товара: " + this.getID() + "\nНаименование товара: " + this.getName() + "\nЦена: " + this.getPrice() + "\nКоличество: " + this.getCount() + "\n";
+        return "Код товара: " + this.getID() + "\nНаименование товара: " + this.getName() + "\nЦена: " +
+                this.getPrice() + "\nКоличество: " + this.getCount() + "\n";
     }
 }
